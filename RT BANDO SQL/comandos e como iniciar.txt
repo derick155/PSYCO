@@ -1,0 +1,43 @@
+ANTES DE TUDO CHAME @Rtzinmaker Pra duvid nunca mande sua store pra ninguem arrumar porque nao existe outro Rtzinmaker 
+
+
+
+primeiro baixa o xamp, ativa as 2 opção primeiras
+dps clica nesse link abaixo
+http://127.0.0.1/phpmyadmin
+dps de la cria um bagui chamdo comer la no canto esquerdo
+clica em importar e manda esse arquivo
+dps clica em importar
+nao esquecer de colocar comer la na db nas config
+dps é só dar py main.py
+
+
+comandos
+
+/attsaldo ID VALOR 
+
+/ban ID 
+
+/info ID 
+
+/unban ID 
+
+/adc - Comando usado para adiiona material A store aceita apenas neste modelo limite | preco | anjo | token | cartÃ£o | senha | validade | CVV | CPF |
+
+/adc | 200 | 30 | 4901 4402 9382 9883 | 0213 | 07/2028 | 868 | 710.901.554-84 | (84) 99117-6600 | NOME
+
+/send 
+
+/Bin 
+
+/chk 
+
+/ccs
+
+/remove - Remove a consul /remove NUMERO DA CONSUL
+
+/garantias - Atualiza as garantias das consultaveis *NEGRITO* _ITALICO_
+
+/texto_saldo - Atualiza o texto para comprar saldo <CHAVE> <NOME> <BANCO>
+
+NÃƒO ALTERE O TEXTO DENTRO DOS < > POIS SERVEM PARA IDENFICAR O LUGAR QUE DESEJAM AS INFORMAÃ‡Ã•ES NÃƒO ADICIONE A CHAVE, NOME, NEM NOME DO BANCO, SERÃ� ATUALIZADO SOZINHO NÃ£o colocar os seguintes pontos no texto /<>_().-|[]{}:;, Caso for usa algumas dessas pontuaÃ§Ãµes use a barra invertida antes da pontuaÃ§Ã£o Ex: \( Atendimento das 08\:00 Ã s 00:\:00 \)

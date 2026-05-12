@@ -1,0 +1,106 @@
+{
+    "dono": {
+        "dono": "@Derick71",
+        "id_dono": "8198417498",
+        "suporte": "@Derick71",
+        "adm": [],
+        "grupo": "--1003919245008",
+        "user_grupo": "@",
+        "backup": "-",
+        "logger": "-",
+        "user_store": "",
+        "spam": [
+            "",
+            "-1001709494647"
+        ],
+        "db": "comer",
+        "token_bot": "8839007542:AAFJ-XKpRQ_ZbCf402KNiHizOVgfCKpBuaI",
+        "token_teste": "8839007542:AAFJ-XKpRQ_ZbCf402KNiHizOVgfCKpBuaI",
+        "token_pix": "cs_t02yv5hnwj88dm60wek45muf1",
+        "client_id": "ci_tbbbz4ekcow593w",
+        "chave_pix": "",
+        "banco_da_lara": "",
+        "nome_da_lara": ""
+    },
+    "dados": {
+        "foto": "https://i.postimg.cc/DzsFdjQw/file-00000000cc14720e9537c8fbde666e1c.png",
+        "foto1": "https://i.postimg.cc/DzsFdjQw/file-00000000cc14720e9537c8fbde666e1c.png",
+        "pix": "ON",
+        "manual": "OFF \u26a0\ufe0f",
+        "vendas_cc": "ON",
+        "adc_material": "ON",
+        "saldo em dobro": "OFF \u26a0\ufe0f",
+        "checagem": 10,
+        "porcent_refer": 10,
+        "sender": "OFF",
+        "vip": "OFF",
+        "text": "OFF",
+        "photo": "OFF",
+        "id": "OFF"
+    },
+    "checker": {
+        "atual": "off",
+        "troca": "off",
+        "reserva": "off",
+        "jhon debitando": {
+            "login": "",
+            "senha": "",
+            "token": "",
+            "expiracao": 1
+        },
+        "jhon debitando gate 2": {
+            "login": "",
+            "senha": "",
+            "token": "",
+            "expiracao": 1
+        },
+        "jhon debitando gate 3": {
+            "login": "",
+            "senha": "",
+            "token": "",
+            "expiracao": 1
+        },
+        "jhon pre auth": {
+            "login": "",
+            "senha": "",
+            "token": "",
+            "expiracao": 1
+        },
+        "erede": {
+            "login": "87780674",
+            "senha": "1e91ec32700745ec8926ac46f124377f",
+            "token": "",
+            "expiracao": 1
+        },
+        "pagar.me": {
+            "login": "",
+            "senha": "",
+            "token": "ak_live_WrpGQitI2bYlH0KXxgU960o1qnNN2K",
+            "expiracao": 1
+        },
+        "azkaban pre auth": {
+            "login": "auth",
+            "senha": "senha",
+            "token": "",
+            "expiracao": 1
+        },
+        "allcenter pre auth": {
+            "login": "wick",
+            "senha": "infowick",
+            "token": "",
+            "expiracao": 1
+        },
+        "comandante pre auth": {
+            "login": "",
+            "senha": "",
+            "token": "",
+            "expiracao": 1644779264
+        },
+        "thzin debitando": {
+            "login": "",
+            "senha": "",
+            "token": ".eyJ1c2VyIjoid2ljayIsIm5hbWUiOiJKaG9uIFdpY2siLCJpYXQiOjE2NDQ3NzkyNjUsImV4cCI6MTY0NDg2NTY2NX0.la2CY5a7vrN2TFcVmmTBaUP7aDirBOxiLPCBuTZDrZM",
+            "expiracao": 0
+        }
+    }
+}
