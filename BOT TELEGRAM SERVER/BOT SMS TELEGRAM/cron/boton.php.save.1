@@ -1,0 +1,18 @@
+<?php include __DIR__.'/../includes/includes.php'; $tlg = new Telegram 
+(TOKEN_BOT); $bd_tlg = new bdTelegram (__DIR__.'/../recebersmsbot.db'); 
+foreach ($bd_tlg->todosUsuarios () as $usuario){
+	$msg = $tlg->sendMessage ([
+	 	'chat_id' => $usuario ['id_telegram'],
+	 	'from_chat_id' => CHAT_ID_NOTIFICACAO,
+	 	'text' => "BOT ON ✅
+PROMOCÃO MALUCA. FAZENDO UMA OU MAIS RECARGA NESSA QUINTA FEIRA APARTI DE R$20.00
+LEVA GRATIS ESQUEMA 99pop  + matriz FASA A RECARGA PELO BOT  E DEPOIS ME CHAMA NO PV @xKalElx
+",
+		'parse_mode' => 'html'
+	 ]);
+	if ($msg ['ok']){
+		$nome = $msg ['result']['chat']['first_name'] ?? 
+$usuario ['id'];
+		echo "{$nome} enviada\n";
+	}
+}
