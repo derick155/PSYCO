@@ -1,0 +1,13 @@
+aiogram==2.14.3
+telepot
+pymysql
+requests
+yagmail
+lxml
+unidecode
+deep-translator
+mercadopago
+qrcode
+Pillow
+print-color
+pyTelegramBotAPI
