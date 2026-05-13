@@ -4,7 +4,7 @@ sys.path.insert(1, './')
 
 from defs import arq, ca
 
-login = "root"
+login = "udiednpgkox0vhio"
 db = arq.ler_json(ca.config)['dono']['db']
 
 banco = ['id', 'user', 'nome', 'saldo', 'pontos', 'compras','gifts', 'referencia', 'notificacao', 'autorizacao', 'ban']
@@ -46,7 +46,7 @@ CREATE TABLE `cc` (
 def cadastro(json_cliente):
     global banco
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     lista = []
     
     
@@ -83,7 +83,7 @@ def cadastro_cc(cc):
         
     keys = ", ".join(keys_cc)
 
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     cursor = conexao.cursor()    
     #INSERIR
     inserir = f"INSERT INTO cc ({keys}) VALUES {tuple(lista)};"   
@@ -97,7 +97,7 @@ def cadastro_cc(cc):
 
 def id_clientes():
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -124,7 +124,7 @@ def cliente(id):
     global banco
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -165,7 +165,7 @@ def atualiza_cadastro(json_cliente):
     global banco 
     
         # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     lista = []
     
     
@@ -196,7 +196,7 @@ def atualiza_cadastro(json_cliente):
 
 def clientes_json():
     while True:
-        conexao = pymysql.connect(db=db, user=login)
+        conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
         # Cria um cursor:
         cursor = conexao.cursor()
         
@@ -223,7 +223,7 @@ def clientes_json():
 
 def ccs_json():
     while True:
-        conexao = pymysql.connect(db=db, user=login)
+        conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
         # Cria um cursor:
         cursor = conexao.cursor()
         
@@ -251,7 +251,7 @@ def ccs_json():
 def delete_cc(numero):
     global keys_cc
 
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     cursor = conexao.cursor()
     
     #DELETAR
@@ -267,7 +267,7 @@ def cc_numero(numero):
     global keys_cc
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -309,7 +309,7 @@ def search_banco(busca, level):
     global keys_cc
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -338,7 +338,7 @@ def search_level(level):
     global keys_cc
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -367,7 +367,7 @@ def search_bin(bin):
     global keys_cc
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -397,7 +397,7 @@ def search_tipo(tipo, level):
     global keys_cc
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -427,7 +427,7 @@ def search_bandeira(bandeira, level):
     global keys_cc
     
     # Abrimos uma conexão com o banco de dados:
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     # Cria um cursor:
     cursor = conexao.cursor()
     
@@ -454,7 +454,7 @@ def search_bandeira(bandeira, level):
 
 
 def limpa_db_cc():
-    conexao = pymysql.connect(db=db, user=login)
+    conexao = pymysql.connect(host="btisgnrnglhpj3mvrc76-mysql.services.clever-cloud.com", db=db, user=login, password="sDtP3MnIezbc0QJcy9nO", port=3306)
     cursor = conexao.cursor()
 
     comando = f"TRUNCATE TABLE cc"
